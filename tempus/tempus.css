@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,400i');
+
+body {
+    background: #a8cdff;
+    color: #002251;
+    font-family: 'EB Garamond', serif;
+    font-size:30px;
+
+}
+
+#title {
+    display:block;
+    position: absolute;
+    margin-top: -40px;
+    display:flex;
+}
+
+#abt {
+    font-size: 16px;
+    margin-top: 13px;
+    margin-left: 20px;
+    font-style: italic;
+}
+
+#src a{
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 13px;
+    margin-left: 20px;
+    font-style: italic;
+    color: #002251;
+}
+#content {
+    margin: 0 auto;
+    width: 900px;
+    padding:30px;
+    margin-top:70px;
+    display:flex;
+}
+
+#poem {
+    font-size:20px;
+    width: 50%;
+    padding:4px;
+    border-right: 1px solid #698cb9;
+}
+
+#fridge {
+    width: 50%;
+    font-size: 14px;
+    padding: 14px;
+    border-top-right-radius: 6px; 
+    border-bottom-right-radius: 6px;
+}
+
+.word {
+    background: #a8cdff;
+    display: inline-block;
+    margin-left: 3px;
+    margin-top: 3px;
+    padding-left: 10px;
+    padding-top:2px;
+    padding-bottom:2px;
+    padding-right:10px;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -ms-user-select: none; 
+    position: relatives;  
+}
+
+.b1 {
+    background: #84b8ff;
+}
+
+.b2 {
+    background: #b5adf8;
+}
+
+.b3 {
+    background: #eaa0de;
+}
+
+.b4 {
+    background: #ff999e;
+}
+
+.b5 {
+    background: #ffa677;
+}
+
+.b6 {
+    background: #ffe078;
+}
+
+#description {
+    position: absolute;
+    display: none;
+    background: #a8cdff;
+    padding: 5px;
+    z-index: 9999;
+    font-size: 14px;
+    width: 50%;
+}
+
+.drop-shadow {
+    -webkit-box-shadow: 5px 5px 0px  #7993b6;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    5px 5px 0px  #7993b6;  /* Firefox 3.5 - 3.6 */
+    box-shadow:         5px 5px 0px  #7993b6;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}

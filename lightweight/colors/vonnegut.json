@@ -1,0 +1,46 @@
+{
+    "0": {
+        "removed": 4,
+        "color": "#fdfdfd"
+    },
+    "1": {
+        "removed": 16,
+        "color": "#444444"
+    },
+    "2": {
+        "removed": 1,
+        "color": "#f8f8f8"
+    },
+    "3": {
+        "removed": 7,
+        "color": "#ffffff"
+    },
+    "4": {
+        "removed": 2,
+        "color": "#202020"
+    },
+    "5": {
+        "removed": 8,
+        "color": "#010101"
+    },
+    "6": {
+        "removed": 5,
+        "color": "#000000"
+    },
+    "7": {
+        "removed": 2,
+        "color": "#dadada"
+    },
+    "8": {
+        "removed": 3,
+        "color": "#686868"
+    },
+    "9": {
+        "removed": 2,
+        "color": "#efefef"
+    },
+    "10": {
+        "removed": 5,
+        "color": "#4f4f4f"
+    }
+}

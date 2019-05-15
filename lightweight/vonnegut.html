@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+.chart text {
+  fill: white;
+  font: 10px sans-serif;
+  text-anchor: end;
+}
+
+</style>
+<svg class="chart"></svg>
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script>
+
+var dat = [4, 16, 1, 7, 2, 8, 5, 2, 3, 2, 5]
+
+var width = 500,
+    barHeight = 20;
+
+var x = d3.scale.linear()
+    .domain([0, 16])
+    .range([0, width]);
+
+var chart = d3.select(".chart")
+    .attr("width", width)
+    .attr("height", barHeight * 11);
+
+var bar = chart.selectAll("g")
+    .data(dat)
+    .enter().append("g")
+    .attr("transform", function(d, i) {return "translate(0," + i * barHeight + ")"; });
+
+bar.append("rect")
+    .attr("width", x)
+    .attr("fill", "#000000")
+    .attr("height", barHeight - 1);
+
+</script>
