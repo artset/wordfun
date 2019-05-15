@@ -1,0 +1,103 @@
+@import url("https://use.typekit.net/ymg1cyn.css");
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i');
+
+a {
+  text-decoration: none;
+}
+::selection {
+  background: #ffdbbc;
+  color: #840905;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: #ffdbbc;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #0c4549;
+  border-radius: 7px;
+}
+
+body {
+  font-family: 'Lora', serif;
+  font-size:14px;
+  background: #ffdbbc;
+  color: #472100;
+  line-height: 25px;
+}
+
+#filler {
+  height:100vh;
+}
+#content {
+  margin: 0 auto;
+  width: 700px;
+  padding:20px;
+}
+
+#title {
+  font-family: ivymode, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 55px;
+  line-height: 60px;
+  padding-bottom: 30px;
+  position:absolute;
+  bottom:0px;
+  width: 500px;
+}
+
+/* #title .t {
+  color:red;
+} */
+
+p {
+  margin:-3px;
+}
+p.line .t {
+  display:none;
+}
+
+p.line .o {
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  transition: 0.4s;
+}
+
+
+p.line:hover .o {
+  opacity: 1;
+  display: none;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  transition: 0.4s;
+}
+
+p.line:hover .t {
+  display: inline;
+  opacity:1;
+  background:  #ffdbbc;
+}
+
+p#title  .t {
+  top:-300px;
+  position:absolute;
+  padding-bottom:150px;
+
+}
+
+.ingredients {
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+h3 {
+  font-weight: 400;
+  font-style: italic;
+}

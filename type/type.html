@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta content="text/html">
+    <title>Choose your Type</title>
+    <link rel="stylesheet" type="text/css" href="type.css">
+    <link rel="shortcut icon" type="image/png" href="assets/type.png"/>
+
+    <script src="libs/rita-full.min.js"></script>
+    <script src="type.js"></script>
+</head>
+
+<body>
+    
+    <div id="content">
+        <div id="title">Choose your <div id="type">type</div></div>
+
+        <div id="nav">
+            <div class="crusty-bookstore" onclick="crustyBookstore()"> <a href="#">crimson text</a> </div>
+            <div class="watery-flowers" onclick="wateryFlowers()"> <a href="#">playfair display</a> </div>
+            <div class="firm-fold" onclick="firmFold()"> <a href="#">raleway</a> </div>
+            <div class="modern-mishap" onclick="modernMishap()"> <a href="#">inconsolata</a> </div>
+
+        </div>
+            <div id="poem-title"></div>
+            <div id ="text"> Generate a poem where the literary voice emulates the typeface. </div>
+            <div id="author"> Poems produced from texts by Guy de Maupassant, Lauren Groff, Haruki Murakami,
+                George Saunders, Emily Bronte, Charlotte Bronte,
+                 Gustave Flaubert, William Wordsworth + with the help
+                 of riTa to produce markov chains and for grammar and 
+                 the datamuse api for parts of speech manipulation to provide
+                 enjambment!
+            </div>
+    </div>
+</body>
+
+</html>
