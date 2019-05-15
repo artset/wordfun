@@ -40,11 +40,11 @@ function crustyBookstore() {
 
     var choose = Math.floor(Math.random() * 10);
     if (choose%4 === 0) {
-        readFile("https://raw.githubusercontent.com/artset/type/master/scraping/jane_eyre-bronte.txt", 0);
+        readFile("https://raw.githubusercontent.com/artset/wordfun/master/type/scraping/jane_eyre-bronte.txt", 0);
     } else if (choose%4 ===1) {
-        readFile("https://raw.githubusercontent.com/artset/type/master/scraping/wordsworth.txt", 0);
+        readFile("https://raw.githubusercontent.com/artset/wordfun/master/type/scraping/wordsworth.txt", 0);
     } else {
-        readFile("https://raw.githubusercontent.com/artset/type/master/scraping/bel-ami_maupassant.txt", 0);
+        readFile("https://raw.githubusercontent.com/artset/wordfun/master/type/scraping/bel-ami_maupassant.txt", 0);
     }
 }
 
@@ -55,9 +55,9 @@ function wateryFlowers() {
     document.getElementById("text").style.fontFamily = "'Playfair Display', serif";
     var choose = Math.floor(Math.random() *2);
     if (choose%2 === 0) {
-        readFile("https://raw.githubusercontent.com/artset/type/master/scraping/flower_hunter-lauren_groff.txt", 0);
+        readFile("https://raw.githubusercontent.com/artset/wordfun/master/type/scraping/flower_hunter-lauren_groff.txt", 0);
     } else  {
-        readFile("https://raw.githubusercontent.com/artset/type/master/scraping/under_wave-lauren_groff.txt", 0);
+        readFile("https://raw.githubusercontent.com/artset/wordfun/master/type/scraping/under_wave-lauren_groff.txt", 0);
     } 
     
 }
@@ -70,11 +70,11 @@ function firmFold() {
     document.getElementById("text").style.fontFamily = "'Raleway', san-serif";
     var choose = Math.floor(Math.random() *3);
     if (choose%3 === 0) {
-        readFile("https://raw.githubusercontent.com/artset/type/master/scraping/kino-haruki_murakami.txt", 1);
+        readFile("https://raw.githubusercontent.com/artset/wordfun/master/type/scraping/town_of_cats-haruki_murakami.txt", 1);
     } else if (choose%3 ===1) {
-        readFile("https://raw.githubusercontent.com/artset/type/master/scraping/town_of_cats-haruki_murakami.txt", 1);
+        readFile("https://raw.githubusercontent.com/artset/wordfun/master/type/scraping/kino-haruki_murakami.txt", 1);
     } else {
-        readFile("https://raw.githubusercontent.com/artset/type/master/scraping/samsa-haruki_murakami.txt", 1);
+        readFile("https://raw.githubusercontent.com/artset/wordfun/master/type/scraping/samsa-haruki_murakami.txtt", 1);
     }
 
 
@@ -89,9 +89,9 @@ function modernMishap() {
     document.getElementById("text").style.fontFamily = "'Inconsolata', monospace";
     var choose = Math.floor(Math.random() *2 );
     if (choose%2 === 0) {
-        readFile("https://raw.githubusercontent.com/artset/type/master/scraping/tenth_dec-george_saunders.txt", 1);
+        readFile("https://raw.githubusercontent.com/artset/wordfun/master/type/scraping/tenth_dec-george_saunders.txt", 1);
     } else {
-        readFile("https://raw.githubusercontent.com/artset/type/master/scraping/semplica_girls-george_saunders.txt", 1);
+        readFile("https://raw.githubusercontent.com/artset/wordfun/master/type/scraping/semplica_girls-george_saunders.txt", 1);
     } 
     
 }

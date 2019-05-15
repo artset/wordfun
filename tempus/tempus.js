@@ -175,7 +175,7 @@ $("#abt").click(function(){
 });
 
 
-var test_txt = readFile("https://raw.githubusercontent.com/artset/tempus/master/leaves_of_grass.txt?token=Ag0D0xuDza7Y80pbgurPFe36Cpfth57cks5cpTglwA%3D%3D");
+var test_txt = readFile("https://raw.githubusercontent.com/artset/wordfun/master/tempus/leaves_of_grass.txt");
 rm = new RiMarkov(2);
 
 rm.loadText(test_txt);
