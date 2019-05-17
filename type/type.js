@@ -74,7 +74,7 @@ function firmFold() {
     } else if (choose%3 ===1) {
         readFile("https://raw.githubusercontent.com/artset/wordfun/master/type/scraping/kino-haruki_murakami.txt", 1);
     } else {
-        readFile("https://raw.githubusercontent.com/artset/wordfun/master/type/scraping/samsa-haruki_murakami.txtt", 1);
+        readFile("https://raw.githubusercontent.com/artset/wordfun/master/type/scraping/samsa-haruki_murakami.txt", 1);
     }
 
 
